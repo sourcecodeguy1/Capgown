@@ -22,8 +22,6 @@ Route::resource('stanford_university', 'StanfordPostsController');
 Route::resource('stanford_university_2017', 'StanfordUniversity2017Controller');
 Route::resource('stanford_university_2016', 'StanfordUniversity2016Controller');
 
-//Route::get('/index', 'InventoryController@university_california');
-
 Route::get('/index', 'PostsController@index');
 
 
